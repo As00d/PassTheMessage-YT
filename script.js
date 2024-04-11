@@ -5,4 +5,5 @@ const getMessage = function () {
   var element = document.getElementById("textMessage");
   element.classList.add("textDisplayed");
   element.classList.remove("textHidden");
+  document.getElementById("message").value = '';
 };

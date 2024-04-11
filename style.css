@@ -1,3 +1,4 @@
+/* The project is not reponsive in nature */
 * {
   padding: 0;
   margin: 0;
@@ -73,6 +74,7 @@
 .textDisplayed {
     display: block;
     padding: 10px 0;
+    text-align: center;
 }
 .textHidden {
     display: none;
