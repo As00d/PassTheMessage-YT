@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pass the message</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="messageBox">
+        <div class="innerBox1">
+          <h1>Pass the message</h1>
+        </div>
+        <div class="innerBox2">
+          <label for="message">Enter a message</label>
+          <br />
+          <div class="content">
+            <i class="fa-sharp fa-regular fa-message"></i>
+            <input type="text" name="" id="message" value="" />
+          </div>
+        </div>
+        <div class="submitDiv">
+          <input
+            type="submit"
+            value="Submit"
+            onclick="getMessage()"
+            class="submit"
+          />
+        </div>
+        <div><p id="textMessage" class="textHidden">text-message</p></div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/5f09283e63.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
